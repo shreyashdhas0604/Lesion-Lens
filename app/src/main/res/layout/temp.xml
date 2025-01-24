@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="Scrollable area for displaying cards"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#007BFF"
+
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:padding="16dp"
+                    android:text="Types of Lesion"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#CAE8FF"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cancer1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="16dp"
+                    android:text="Actinic keratosis (AK) causes rough, scaly skin patches. Left untreated, AK can lead to a skin cancer called squamous cell carcinoma. The best way to prevent AK is to protect yourself from sun."
+                    android:textColor="#1A237E"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#CAE8FF"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/melanoma" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="Basal cell carcinoma is a type of skin cancer that most often develops on areas of skin exposed to the sun, such as the face. On white skin, basal cell carcinoma often looks like a bump that's skin-colored or pink."
+                    android:textColor="#1A237E"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#CAE8FF"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/melanoma" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="16dp"
+                    android:text="It starts in the melanocytes. Melanocytes are cells that make the pigment that gives skin its color. The pigment is called melanin. Melanoma typically starts on skin that's often exposed to the sun."
+                    android:textColor="#1A237E"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#CAE8FF"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/melanoma" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="Skin growths can be alarming, but dermatofibromas are generally harmless. However, if a person has a growth that looks like a dermatofibroma but is rapidly growing or changing, they should seek medical advice."
+                    android:textColor="#1A237E"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#CAE8FF"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/melanoma" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="Melanoma happens when something changes healthy melanocytes into cancer cells. Melanocytes are skin cells that make pigment that gives skin its color. The pigment is called melanin."
+                    android:textColor="#1A237E"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/melanoma" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#CAE8FF"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/melanoma" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="Seborrheic keratoses are benign lesions. They generally are only of aesthetic concern to the patient. Some lesions may be bothersome because of pruritus and are usually treated for this reason. It may clinically mimic a malignant tumor, thus they are usually biopsied to exclude other tumors."
+                    android:textColor="#1A237E"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:cardBackgroundColor="#CAE8FF"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/melanoma" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="Vascular anomalies can be broken down into two major categories: tumors and malformations. These clinical entities are extremely different, but often confused, as evidenced by the history and medical literature."
+                    android:textColor="#1A237E"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="390dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#007BFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center">
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/learn2" />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/camera"/>
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/about2" />
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

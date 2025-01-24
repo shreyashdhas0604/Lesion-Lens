@@ -33,6 +33,7 @@ Follow these steps to get the app up and running:
 2. **Android Device or Emulator**: You'll need an Android device or emulator with at least Android 5.0 (Lollipop) or higher to run the app.
 3. **TensorFlow Lite**: TensorFlow Lite dependencies are included in the project for deploying the machine learning model.
 4. **Keras Model (.tflite)**: Ensure that the pre-trained TensorFlow Lite model (`.tflite` file) is available in the project.
+5. **If not available** : Download from here https://drive.google.com/file/d/1Jv3WLH6hpHRNL5ukxvhRxuffk_Ixto2X/view?usp=sharing and paste it in the app->src->main->assets folder
 
 ### Installation
 
